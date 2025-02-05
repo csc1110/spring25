@@ -13,11 +13,12 @@ public class StringExamples {
         }
         String pass = "1234";
         String guess = new String("1234");
+        //String guess = "1234";
 
-        if(pass.equals(guess)){
-            System.out.println("Access granted");
-        } else {
+        if(!pass.equals(guess)){
             System.out.println("Access denied");
+        } else {
+            System.out.println("Access granted");
         }
 
     }
