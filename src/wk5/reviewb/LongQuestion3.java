@@ -1,4 +1,4 @@
-package wk6.reviewb;
+package wk5.reviewb;
 
 import java.util.Scanner;
 
