@@ -3,6 +3,12 @@ package wk7.sectiona;
 public class MyMathDriver {
     public static void main(String[] args) {
 
+        MyMath.add(2,3);
+        String last = "velez";
+        last.length();
+
+
+
         System.out.println(MyMath.add(3, 4));
         System.out.println(MyMath.MY_PI);
 
